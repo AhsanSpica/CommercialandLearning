@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+/*BODY {
+	BACKGROUND-IMAGE:   url(bg.jpg); BACKGROUND-COLOR: #ebebeb; MARGIN: 40px 0px 10px; BACKGROUND-REPEAT: repeat-x
+}*/
+BODY {
+ /* BACKGROUND-COLOR:#f9d3cf; */
+  /* BACKGROUND: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%); */
+   /* BACKGROUND: linear-gradient( 110deg, white 60%, #1493D7 40%);   */
+       BACKGROUND: linear-gradient( 100deg,#afdff7 10%, white 70%, #1493D7 30%); 
+       background-attachment: fixed;
+   /*  BACKGROUND: linear-gradient(110deg, #00def7 60%, #0e54ed 60%); */
+/* BACKGROUND:  linear-gradient(to right,#ef97bb, #f24b8f);*/
+ /*BACKGROUND:  linear-gradient(to right,#f1eff2, #9c07ed);*/
+  /* BACKGROUND:  linear-gradient(to right,#f4eff7, #f209e6); */
+  /*  BACKGROUND:  linear-gradient(to right,#f4eff7, #f975f3); */
+ 
+}
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 20px;
+  height: 20px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.diveffect{
+ background: inherit;
+  
+ 
+ overflow: hidden;   
+}
+.diveffect:before{
+ content: none;
+ background: inherit; 
+ 
+  
+ box-shadow: inset 0 0 0 3000px rgba(255,255,255,0.3);
+ filter: blur(10px);
+}
+.Arial {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 12px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.linkblue {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #0066ff;  width: 100px;height: 20px;padding: 0px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.linkblue:hover {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #0099ff; FONT-SIZE: 12px; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+
+/*.colorstrip:hover {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; background-color: #0066ff; COLOR: #0099ff; FONT-SIZE: 12px; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}*/
+
+.Arial11 {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #4c4c4c; FONT-SIZE: 11px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.date {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #4c4c4c; FONT-SIZE: 12px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.magsnet {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #5186bd; FONT-SIZE: 11px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+#imgMargin {
+	MARGIN: 0px 0px 0px 10px
+}
+.headLevel01 {
+	BACKGROUND-IMAGE: url(\bg_heading.jpg); PADDING-BOTTOM: 5px; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; FONT-FAMILY: Tahoma, Arial; HEIGHT: 35px; COLOR: #f1f1f1; FONT-SIZE: 20px; PADDING-TOP: 5px
+}
+/*LABEL {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px; PADDING-LEFT: 0px; WIDTH: 380px; PADDING-RIGHT: 0px; DISPLAY: block; FLOAT: none; ; HEIGHT: expression('1%'); PADDING-TOP: 0px
+}*/
+.navBtn {
+	BACKGROUND-IMAGE: url(side_lick_bg.jpg); BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-LEFT: 15px; WIDTH: 173px; FONT-FAMILY: arial, Helvetica, sans-serif; HEIGHT: 27px; COLOR: #666666; FONT-SIZE: 13px; BORDER-TOP: medium none; FONT-WEIGHT: bold; BORDER-RIGHT: medium none; TEXT-DECORATION: none; PADDING-TOP: 5px
+}
+.navBtn:hover {
+	BACKGROUND-IMAGE: url(side_lick_bg_ro.jpg); BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-LEFT: 15px; WIDTH: 173px; FONT-FAMILY: arial, Helvetica, sans-serif; HEIGHT: 27px; COLOR: #125aa6; FONT-SIZE: 13px; BORDER-TOP: medium none; CURSOR: hand; BORDER-RIGHT: medium none; TEXT-DECORATION: none; PADDING-TOP: 5px
+}
+.hand {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 12px; CURSOR: hand; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.linkblue1 {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #0066ff; FONT-SIZE: 15px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.linkblue1:hover {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #0099ff; FONT-SIZE: 15px; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+/*IMG {
+	BEHAVIOR: url("/iepngfix.htc")
+}
+DIV {
+	BEHAVIOR: url("/iepngfix.htc")
+}
+INPUT {
+	BEHAVIOR: url("/iepngfix.htc")
+}*/
